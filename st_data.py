@@ -20,7 +20,7 @@ def Write_to_File():
 def Search_dict():
     id = input('enter ur id')
     print('name:', std_dct[id]['name'])
-    print 'sundar'
+    print 'sundar sueshkumar'
 
 def print_all():
     for id in std_dct:

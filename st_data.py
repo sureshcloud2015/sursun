@@ -20,14 +20,13 @@ def Write_to_File():
 def Search_dict():
     id = input('enter ur id')
     print('name:', std_dct[id]['name'])
-    print('tot:', std_dct[id]['tot'])
+    print 'sundar'
 
 def print_all():
     for id in std_dct:
         print('id',id)
         print('name:', std_dct[id]['name'])
-        print('Tot', std_dct[id]['tot'])
-
+       
 def add_dict():
     id = input('enter ur id')
     name = input('enter ur name')
